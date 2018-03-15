@@ -7,17 +7,17 @@ import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='Eq9AwJvajZ1sEjxGep47.NJBaaPWX4ChwW2QkFbp+nW.c9wwyaCeQn22H9uP2kUftHuEt2SW4BJCjWAmDW8YD4A=')
+cl.login(token='EqQTjKmNYfV0IyDMzWq7.NJBaaPWX4ChwW2QkFbp+nW.Qly7Cl5+ikuAoxPtLKRbQxkJc5iN+g22ud3lwanCe/E=')
 cl.loginResult()
 
 ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='Eq7cRGnm3ut2kibDs3K2.WuAN6ZMYbnj1pDJejZ3XeG.9YnKQhsX6ml3Hf5Rl41hDc40/UGvyecFIA9+9jekdK0=')
+ki.login(token='EqPFir7B1aWWnIxKwgv2.WuAN6ZMYbnj1pDJejZ3XeG.AVB0/21zdS9AGNGudndSXOj7t72JiH/USfIVJBwHkzA=')
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
 #ki2.login(qr=True)
-ki2.login(token='EqJxjfSjCNFCFkrfzuT3.f7PFfPKpsK3A22938LA0mW.ermIXjsq8bz795LLXYnUVlUJdsPpOzX0CCTaTZwz0u0=')
+ki2.login(token='EqNmx1sWsLhbtojnwqb3.f7PFfPKpsK3A22938LA0mW.OGaMsgK4J3g+Y0eDqaMeIfBQpMg1fK0mqMjxIlzkMTI=')
 ki2.loginResult()
 
 print "[--Login Succes--]"
@@ -1918,10 +1918,10 @@ def bot(op):
        #-------------Fungsi Respon Start---------------------#
             elif msg.text in ["Absen","Absen bot","Absen dulu","Respon"]:
               #if msg.from_ in admin:
-                cl.sendText(msg.to,"Tukang Sayur On")
-                ki.sendText(msg.to,"Tukang Jengkol On")
-                ki2.sendText(msg.to,"Tukang Kibul On")
-                cl.sendText(msg.to,"Semua Udah Hadir Boss\nSiap Protect Group\nAman Gak Aman Yang Penting Anu")
+                cl.sendText(msg.to,"Creator Siap")
+                ki.sendText(msg.to,"Captain Siap")
+                ki2.sendText(msg.to,"Monika Siap")
+                cl.sendText(msg.to,"Semua Udah Hadir \nSiap Protect Group\nAman Gak Aman Yang Penting Anu")
       #-------------Fungsi Respon Finish---------------------#
                             
 
@@ -2106,7 +2106,7 @@ def autolike():
       if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
         try:
           cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉Auto Like by ⭐⭐Koplaxs⭐⭐👈\n\n™By ✰૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮✰")
+          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉Auto Like by ⭐⭐Monika⭐⭐👈\n\n™By ✰Monika Team Selfbot✰")
           ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
           ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
           ki2.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
@@ -2130,8 +2130,8 @@ def likePost():
                     cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     ki2.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto like by ^૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮^\nStatus Boss udah Kami Like\nOwner Kami :\nKoplaxs")
-                    ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId']," ✰૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮✰")
+                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto like by ^Monika Team Selfbot^\nStatus udah Kami Like\nOwner Kami :\nMonika")
+                    ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId']," ✰Monika Team Selfbot✰")
                     print "Like"
                 except:
                     pass
