@@ -12,7 +12,7 @@ cl.loginResult()
 
 ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='EqPFir7B1aWWnIxKwgv2.WuAN6ZMYbnj1pDJejZ3XeG.AVB0/21zdS9AGNGudndSXOj7t72JiH/USfIVJBwHkzA=')
+ki.login(token='EqPpRTiLzHDn8hTEY9e2.WuAN6ZMYbnj1pDJejZ3XeG.iXHPLa9lV+dMczOI5Gg+MgYU/dHS815+yYumDjWip9I=')
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
