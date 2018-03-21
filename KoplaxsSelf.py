@@ -7,17 +7,17 @@ import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='EqZPQqqAcALLU07Ptt37.NJBaaPWX4ChwW2QkFbp+nW.X01ZerL9h3tSaVaBUtXX4UBfFOn8m2yUfkRwhzsZngg=')
+cl.login(token='Er8sGG70iT5wJV6bjlj7.NJBaaPWX4ChwW2QkFbp+nW.fI3Ugk569NXh2tH3E7JxkSRp6/bF4Y3wOe+Ne1N+DWk=')
 cl.loginResult()
 
 ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='EqTsxiJzj0UPQ1BZNCT2.WuAN6ZMYbnj1pDJejZ3XeG.BxVO3HU4vjxzFqSx/yvxwjGtxnEMTNO+e/p8YIYhAHE=')
+ki.login(token='ErdviDyTImKdd2faepUc.6/Hbx1Ml/tig0v/yXF5Cxa.UsDCjaWWwAYXK1ZF+cz5qVtkEaL7rPzlfKX2kmA6jMo=')
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
 #ki2.login(qr=True)
-ki2.login(token='Eq51DGcn5IFsEuBbwwE3.f7PFfPKpsK3A22938LA0mW.t9h6QVxrGNlqX0RlAFgmCygmd2fGWLa+V6FANFO14Fg=')
+ki2.login(token='ErGPsXTzDFeECoB6VDC3.f7PFfPKpsK3A22938LA0mW.7lYjRcebhvbwIb0WuQiV+EkKZXQ5DQpkhhTpP5uqaMs=')
 ki2.loginResult()
 
 print "[--Login Succes--]"
@@ -1299,7 +1299,7 @@ def bot(op):
                 if wait["autoAdd"] == True: md+="[•]Auto Add [On]\n"
                 else:md+="[•]Auto Add [Off]\n"
                 if wait["commentOn"] == True: md+="[•]Comment [On]\n"
-                else:md+="[•]Comment [Off]\n*============*\n✰૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮✰\n*============*"
+                else:md+="[•]Comment [Off]\n*============*\n✰Monika Selfbot Team✰\n*============*"
                 cl.sendText(msg.to,md)
             elif msg.text in ["Group id","Ginfo"]:
                 gid = cl.getGroupIdsJoined()
@@ -1691,7 +1691,7 @@ def bot(op):
                     gs = ki.getGroup(msg.to)
                     gs = ki2.getGroup(msg.to)
                     cl.sendText(msg.to,"Hello Kk")
-                    cl.sendText(msg.to,"One Piece Team Mau Bersih² Group Sampah Nih")
+                    cl.sendText(msg.to,"Monika Selfbot Team Mau Bersih² Group Sampah Nih")
                     cl.sendText(msg.to,"Karna Ini Group Sampah Jadi Mau Di Bersihin Dulu Yah\n★Jangan Baper...\n★Jangan Nangis\n★Jangan Cengeng\nBawa Enjoy Aja Kawan♪")
                     msg.contentType = 13
                     msg.contentMetadata = {'mid': 'uc9363b5a4bfacd981c3e3c082bc4d5ef'}
