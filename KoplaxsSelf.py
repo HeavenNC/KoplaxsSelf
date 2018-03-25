@@ -7,12 +7,12 @@ import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='Er8sGG70iT5wJV6bjlj7.NJBaaPWX4ChwW2QkFbp+nW.fI3Ugk569NXh2tH3E7JxkSRp6/bF4Y3wOe+Ne1N+DWk=')
+cl.login(token='ErmKBLQZDwkTnKy5Yrr7.NJBaaPWX4ChwW2QkFbp+nW.czNkJl3xzD2Joam0zMqy8XGwPkq4fO/dRjm3hGWYOMw=')
 cl.loginResult()
 
 ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='ErdviDyTImKdd2faepUc.6/Hbx1Ml/tig0v/yXF5Cxa.UsDCjaWWwAYXK1ZF+cz5qVtkEaL7rPzlfKX2kmA6jMo=')
+ki.login(token='Er12lNVRJ4KslhRLE9m3.f7PFfPKpsK3A22938LA0mW.HWFwJPERscFwkkPf+N3kCfMAiPtnE/6itCcWZLyX+NY=')
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
