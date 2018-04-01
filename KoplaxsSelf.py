@@ -7,17 +7,17 @@ import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='ErmKBLQZDwkTnKy5Yrr7.NJBaaPWX4ChwW2QkFbp+nW.czNkJl3xzD2Joam0zMqy8XGwPkq4fO/dRjm3hGWYOMw=')
+cl.login(token='Eryz5qbgXa6SZqrDnzh7.NJBaaPWX4ChwW2QkFbp+nW.gLIgDfDVH0/6WhCXpoN3AwtzEo35GQzouzu8/C3ovmk=')
 cl.loginResult()
 
 ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='Er12lNVRJ4KslhRLE9m3.f7PFfPKpsK3A22938LA0mW.HWFwJPERscFwkkPf+N3kCfMAiPtnE/6itCcWZLyX+NY=')
+ki.login(token='ErARPdmHFS0mwszTHPed.T+LoDe0A6jcy2jWFfEEhJq.j/xzw6Dc8+tWZmD33Cisk06jqoI2poFrStrx2FD9RSA=')
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
 #ki2.login(qr=True)
-ki2.login(token='ErGPsXTzDFeECoB6VDC3.f7PFfPKpsK3A22938LA0mW.7lYjRcebhvbwIb0WuQiV+EkKZXQ5DQpkhhTpP5uqaMs=')
+ki2.login(token='ErBeXgziATuXGrLWkz45.WGwa6C5aM1+nmYjdE9JMjq.CKJabci6EB5R/r4JXbTF0lzQyZ340xJChZYZ9cZ0knE=')
 ki2.loginResult()
 
 print "[--Login Succes--]"
@@ -85,8 +85,8 @@ wait = {
     'message':"""тerima Kasih Sudah Menambahkan Aku Jadi Teman
 ≫ Aku Ga Jawab PM Karna aq Cuma Bot ≪""",
     "lang":"JP",
-    "comment":"Thanks for add me",
-    "commentOn":False,
+    "comment":"Auto Like By : Monika \nhttps://line.me/ti/p/~syifaabyananta",
+    "commentOn":True,
     "commentBlack":{},
     "wblack":False,
     "dblack":False,
